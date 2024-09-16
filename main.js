@@ -11,14 +11,14 @@ const test = `only one i have is test@aaa.com,
 http://test.app, (2344) 3233-03030, 00032-33939-93033-1111, 
 14:30, <div>, #example, $190.43.`;
 
-const emailMatches = text.match(email);
-const urlMatches = text.match(url);
-const phoneMatches = text.match(phone);
-const creditCardMatches = text.match(creditCard);
-const timeMatches = text.match(time);
-const htmlTagMatches = text.match(htmlTag);
-const hashtagMatches = text.match(hashtag);
-const currencyMatches = text.match(currency);
+const emailMatches = test.match(email);
+const urlMatches = test.match(url);
+const phoneMatches = test.match(phone);
+const creditCardMatches = test.match(creditCard);
+const timeMatches = test.match(time);
+const htmlTagMatches = test.match(htmlTag);
+const hashtagMatches = test.match(hashtag);
+const currencyMatches = test.match(currency);
 
 console.log('Emails:', emailMatches);
 console.log('URLs:', urlMatches);
